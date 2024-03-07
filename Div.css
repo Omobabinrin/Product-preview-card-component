@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+}
+section {
+    margin: 50px auto;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.Result {
+    background-color: #5f41fb;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    width: 250px;
+}
+.Your {
+    margin: 20px;
+}
+.spa {
+    width: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    background: #4b24cd;
+    color: white;
+}
+span {
+    font-size: 40px;
+}
+.food {
+    font-size: 10px;
+}
+.great {
+    margin-block: 10px;
+}
+.test {
+    margin-block: 10px;
+}
+.summary {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    width: 250px;
+    
+}
+.reaction {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff7f5;
+    width: 220px;
+    height: 40px;
+    align-items: center;
+    border-radius: 12px;
+    text-align: center;
+    margin-block: 12px;
+    
+}
+.verbal {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fdfcf1;
+    width: 220px;
+    height: 40px;
+    align-items: center;
+    border-radius: 12px;
+    text-align: center;
+    margin-block: 12px;   
+}
+.visual {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f1fbfa;
+    width: 220px;
+    height: 40px;
+    align-items: center;
+    border-radius: 12px;
+    text-align: center;
+    margin-block: 12px;   
+}
+.memory {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f3f3ff;
+    width: 220px;
+    height: 40px;
+    align-items: center;
+    border-radius: 12px;
+    text-align: center;
+    margin-block: 12px;   
+}
+button {
+    background-color: #303b5a;
+    width: 220px;
+    height: 40px;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    margin-block: 12px;
+    color: white;  
+    border: 0;
+}
+.react {
+    color: brown;
+    margin-right: 40px;
+    font-size: 12px;
+}
+.verb {
+    color: rgb(230, 230, 56);
+    margin-right: 45px;
+    font-size: 12px;
+}
+.vis {
+    color: rgb(122, 230, 100);
+    margin-right: 45px;
+    font-size: 12px;
+}
+.memo {
+    color: rgb(78, 87, 195);
+    margin-right: 40px;
+    font-size: 12px;
+}

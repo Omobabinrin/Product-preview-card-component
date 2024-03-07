@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    align-items: center;
+    display: block;
+    flex-wrap: wrap;
+}
+img {
+    width: 200px;
+    height: 50px;
+    top: 10px;
+}
+div {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-align: center;
+}
+.div-1 {
+    border: 3px solid red;
+    display: flex;
+    width: 100vh;
+}
+.div-2 {
+    border: 3px solid green;
+}
